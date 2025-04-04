@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,26 +16,20 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="style1.css">
 <style>
-h2 {
-	font-size: 16px;
-	margin-bottom: 5px;
-}
-
-p {
-	font-size: 12px;
-	margin: 0;
-}
-
- .bg-clr{
-        background-color:#f1faee;
-        }
-
-
+	h2{
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	p{
+		font-size: 12px;
+		margin: 0;
+	}
+	.bg-clr{
+        background-color: #f1faee;
+	}
 </style>
 </head>
 <body>
-
-
 	<nav class="navbar navbar-expand-lg navbar-light bg-clr">
 		<div class="container">
 			<a class="navbar-brand fs-1 fw-medium " href="#">Job
@@ -53,7 +46,6 @@ p {
 					</li>
 					<li class="nav-item"><a class="nav-link" href="viewalljobs">All
 							Jobs</a></li>
-
 					<li class="nav-item"><a class="nav-link"
 						href="https://www.linkedin.com/in/venkatnaraharisetty/">Contact</a></li>
 				</ul>
@@ -63,6 +55,7 @@ p {
 
 	<div class="container mt-5">
 		<div class="row">
+
 			<!-- Card 1 -->
 			<div class="col-md-6 mb-5">
 				<div class="card bg-warning">
@@ -83,18 +76,14 @@ p {
 						<h5 class="card-title">Add Job</h5>
 						<form action="/addjob" method="get">
 							<!-- Your form fields go here if needed -->
-
 							<button type="submit" class="btn btn-primary">Add</button>
 						</form>
 
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 	</div>
-
 
 	<!-- Add the Bootstrap JS and Popper.js scripts -->
 	<script
