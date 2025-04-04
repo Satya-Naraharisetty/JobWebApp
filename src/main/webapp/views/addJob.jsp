@@ -65,7 +65,6 @@
                                 type="text" class="form-control" id="postId" name="postId"
                                 required>
                         </div>
-
                         <div class="mb-1">
                             <label for="postProfile" class="form-label">Post Profile</label>
                             <input type="text" class="form-control" id="postProfile"
