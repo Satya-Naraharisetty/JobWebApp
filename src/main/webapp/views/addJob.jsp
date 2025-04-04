@@ -30,9 +30,7 @@
     </style>
 </head>
 <body>
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
     <div class="container">
         <a class="navbar-brand fs-1 fw-medium" href="#">Job
             Portal Web App</a>
@@ -61,7 +59,7 @@
                 <div class="card-body">
                     <h2 class="mb-3 text-center fs-3 font-weight-bold">Post a new
                         Job</h2>
-                    <form:form action="handleForm" method="post" modelAttribute="jobPost">
+                    <form:form action="handleForm" method="post" modelAttribute="JobPost">
                         <div class="mb-1">
                             <label for="postId" class="form-label">Post ID</label> <input
                                 type="text" class="form-control" id="postId" name="postId"
