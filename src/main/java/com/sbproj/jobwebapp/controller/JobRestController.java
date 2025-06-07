@@ -4,14 +4,14 @@ import java.util.List;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import com.sbproj.jobwebapp.model.JobPost;
 import com.sbproj.jobwebapp.service.JobService;
 
 @RestController
-public class JobController {
+@CrossOrigin(origins = "http://localhost:3000")
+public class JobRestController {
 
     @Autowired
     private JobService service;
@@ -48,6 +48,7 @@ public class JobController {
     @GetMapping("load")
     public String loadData() {
         service.load();
+
         return "success";
     }
 }

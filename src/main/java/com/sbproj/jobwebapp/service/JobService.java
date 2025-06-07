@@ -12,6 +12,7 @@ import com.sbproj.jobwebapp.repo.JobRepo;
 
 @Service
 public class JobService {
+
     @Autowired
     public JobRepo repo;
 
